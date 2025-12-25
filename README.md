@@ -1,12 +1,12 @@
 #  Retail Sales EDA (Python)
 
-## 📌 Overview
+##  Overview
 This project performs an **end-to-end Exploratory Data Analysis (EDA)** on a retail sales dataset using **Python**.  
 The analysis focuses on understanding sales trends, category performance, seasonality, relationships between variables, and extracting **business insights**.
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - Python
 - Pandas
 - NumPy
@@ -15,7 +15,7 @@ The analysis focuses on understanding sales trends, category performance, season
 
 ---
 
-## 📂 Dataset
+##  Dataset
 The dataset contains transactional retail data with key columns:
 - order_id
 - category
@@ -27,7 +27,7 @@ The dataset contains transactional retail data with key columns:
 
 ---
 
-## 🔍 Key Analysis Performed
+##  Key Analysis Performed
 - Data understanding and cleaning
 - Feature engineering (Revenue, Month, Day Type)
 - Category-wise and time-based analysis
@@ -46,17 +46,9 @@ The dataset contains transactional retail data with key columns:
 
 ---
 
-## 🎯 Conclusion
-This project demonstrates practical data analysis skills, statistical reasoning, and business interpretation.  
-It is suitable as a **portfolio project** for **Data Analyst / Data Science fresher roles**.
-
----
-
 ## 👤 Author
 **Zakwan Khan**  
 BCA Graduate | MCA (Pursuing)  
 Skills: Python, Pandas, SQL, Power BI, Excel
 
 ---
-
-⭐ *Feel free to explore the notebook and insights!*
