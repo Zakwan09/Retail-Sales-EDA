@@ -1,61 +1,62 @@
-# 📊 Exploratory Data Analysis (EDA) Project – Retail Sales Dataset
+#  Retail Sales EDA (Python)
 
-## 📌 Project Overview
-This project focuses on performing **end-to-end Exploratory Data Analysis (EDA)** on a retail sales dataset using **Python and Pandas**.  
-The analysis covers descriptive statistics, time-based trends, outlier detection, correlation analysis, and business insights.
+## 📌 Overview
+This project performs an **end-to-end Exploratory Data Analysis (EDA)** on a retail sales dataset using **Python**.  
+The analysis focuses on understanding sales trends, category performance, seasonality, relationships between variables, and extracting **business insights**.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠 Tools Used
 - Python
 - Pandas
-- Matplotlib
 - NumPy
+- Matplotlib
 - Jupyter Notebook
 
 ---
 
-## 📂 Dataset Description
-The dataset contains the following columns:
+## 📂 Dataset
+The dataset contains transactional retail data with key columns:
 - order_id
 - category
 - price
 - quantity
 - order_date
-- revenue (engineered feature)
-- month (engineered feature)
+- revenue (engineered)
+- month (engineered)
 
 ---
 
-## 🔍 Analysis Performed
-✔ Data Cleaning & Understanding  
-✔ Feature Engineering (Revenue, Month, Day Type)  
-✔ Distribution & Outlier Analysis  
-✔ Time-Series & Seasonal Trends  
-✔ Correlation & Relationship Analysis  
-✔ Category Performance Evaluation  
-✔ Advanced EDA & Business Insights  
+## 🔍 Key Analysis Performed
+- Data understanding and cleaning
+- Feature engineering (Revenue, Month, Day Type)
+- Category-wise and time-based analysis
+- Distribution and outlier detection
+- Correlation and relationship analysis
+- Advanced EDA for business insights
 
 ---
 
 ## 📈 Key Insights
-- Revenue peaks in **November and December**, showing strong seasonality.
-- **Grocery** category shows the strongest seasonal spikes.
-- Revenue depends more on **price than quantity**.
-- Top 10% of orders contribute significantly to total revenue.
-- No strong correlation between price and quantity.
+- Strong seasonal trends observed in **November and December**
+- **Grocery** category shows noticeable seasonal spikes
+- Revenue depends more on **price than quantity**
+- No strong correlation between price and quantity
+- Top 10% of orders contribute significantly to total revenue
 
 ---
 
-## 📌 Conclusion
-This EDA project demonstrates strong analytical thinking, proper use of statistical techniques, and business-oriented insights.  
-It is suitable for **Data Analyst / Data Science fresher roles**.
+## 🎯 Conclusion
+This project demonstrates practical data analysis skills, statistical reasoning, and business interpretation.  
+It is suitable as a **portfolio project** for **Data Analyst / Data Science fresher roles**.
 
 ---
 
-## 📎 Author
+## 👤 Author
 **Zakwan Khan**  
 BCA Graduate | MCA (Pursuing)  
-Skills: Python, Pandas, SQL, Power BI, Excel  
+Skills: Python, Pandas, SQL, Power BI, Excel
 
 ---
+
+⭐ *Feel free to explore the notebook and insights!*
