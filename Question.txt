@@ -1,0 +1,117 @@
+EXPLORATORY DATA ANALYSIS QUESTIONS – RETAIL SALES DATASET
+
+Load the dataset and display the first 5 rows
+
+Check the number of rows and columns in the dataset
+
+Display dataset information (data types and non-null counts)
+
+Check the data type of each column
+
+Check for missing values in the dataset
+
+Count the total number of orders
+
+DESCRIPTIVE STATISTICS
+
+Calculate the average price of products
+
+Find the median quantity sold
+
+Identify the maximum and minimum price
+
+Find the average price per category
+
+Calculate the total quantity sold per category
+
+Create a new column called revenue
+
+Calculate total revenue generated
+
+Calculate the average revenue per order
+
+CATEGORY ANALYSIS
+
+Which category has the highest average price?
+
+Which category generates the highest total revenue?
+
+Which category has the lowest average quantity sold?
+
+Compare average price across categories
+
+Which category contributes the most to overall revenue?
+
+Which category has the highest average revenue per order?
+
+TIME-BASED ANALYSIS
+
+How many orders were placed per month?
+
+Which month has the highest number of orders?
+
+Which month generated the highest revenue?
+
+What is the average daily revenue?
+
+Are there any seasonal trends visible in the data?
+
+DISTRIBUTION ANALYSIS
+
+Is the price distribution skewed?
+
+Plot a histogram of price
+
+Plot a boxplot of price to detect outliers
+
+Identify outliers in price using the IQR method
+
+How many price outliers are present?
+
+QUANTITY ANALYSIS
+
+What is the most common quantity sold?
+
+Does higher quantity always mean higher revenue?
+
+Does the quantity distribution show any skewness or imbalance?
+
+Plot the distribution of quantity
+
+Are there any outliers in quantity?
+
+RELATIONSHIP ANALYSIS
+
+Is there a correlation between price and quantity?
+
+Plot a scatter plot between price and quantity
+
+Do expensive items sell less in quantity?
+
+Which category shows the strongest price–quantity relationship?
+
+Is revenue more dependent on price or quantity?
+
+MONTHLY & CATEGORY PERFORMANCE
+
+Calculate monthly revenue per category
+
+Which category performs best in each month?
+
+Is any category showing a declining revenue trend?
+
+Which category is the most consistent across months?
+
+Which category has seasonal revenue spikes?
+
+ADVANCED EDA / INTERVIEW LEVEL
+
+Detect anomalies in revenue
+
+Identify the top 10% high-value orders
+
+Compare weekday vs weekend sales
+
+Which category dominates high-value orders?
+
+Suggest three business insights from the analysis
