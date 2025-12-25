@@ -1,117 +1,119 @@
-EXPLORATORY DATA ANALYSIS QUESTIONS – RETAIL SALES DATASET
+PYTHON EDA QUESTIONS – BASED ON MY NOTEBOOK
 
-Load the dataset and display the first 5 rows
+Load the retail sales dataset into a Pandas DataFrame
 
-Check the number of rows and columns in the dataset
+Display the first few rows of the dataset
 
-Display dataset information (data types and non-null counts)
+Check the shape of the dataset
 
-Check the data type of each column
+Display dataset information using info()
 
-Check for missing values in the dataset
+Check data types of all columns
+
+Check for missing values in each column
 
 Count the total number of orders
 
-DESCRIPTIVE STATISTICS
+BASIC STATISTICS & FEATURE UNDERSTANDING
 
-Calculate the average price of products
+Calculate the mean price of products
 
-Find the median quantity sold
+Calculate the median quantity sold
 
-Identify the maximum and minimum price
+Find the maximum and minimum price
 
-Find the average price per category
+Calculate category-wise average price
 
-Calculate the total quantity sold per category
+Calculate total quantity sold per category
+
+FEATURE ENGINEERING
 
 Create a new column called revenue
 
+Verify the revenue calculation
+
+Create a month column from order_date
+
+Create a weekday/weekend classification column
+
+REVENUE ANALYSIS
+
 Calculate total revenue generated
 
-Calculate the average revenue per order
+Calculate average revenue per order
 
-CATEGORY ANALYSIS
+Identify the category with highest total revenue
 
-Which category has the highest average price?
-
-Which category generates the highest total revenue?
-
-Which category has the lowest average quantity sold?
-
-Compare average price across categories
-
-Which category contributes the most to overall revenue?
-
-Which category has the highest average revenue per order?
+Identify the category with highest average revenue per order
 
 TIME-BASED ANALYSIS
 
-How many orders were placed per month?
+Calculate number of orders per month
 
-Which month has the highest number of orders?
+Identify the month with the highest number of orders
 
-Which month generated the highest revenue?
+Identify the month with the highest revenue
 
-What is the average daily revenue?
+Calculate average daily revenue
 
-Are there any seasonal trends visible in the data?
+Analyze whether seasonal trends are visible
 
-DISTRIBUTION ANALYSIS
+DISTRIBUTION ANALYSIS – PRICE
 
-Is the price distribution skewed?
+Check skewness of price distribution
 
-Plot a histogram of price
+Plot histogram of price
 
-Plot a boxplot of price to detect outliers
+Plot boxplot of price
 
-Identify outliers in price using the IQR method
+Detect price outliers using IQR method
 
-How many price outliers are present?
+Count number of price outliers
 
 QUANTITY ANALYSIS
 
-What is the most common quantity sold?
+Identify the most common quantity sold
 
-Does higher quantity always mean higher revenue?
+Analyze whether higher quantity always leads to higher revenue
 
-Does the quantity distribution show any skewness or imbalance?
+Check skewness of quantity distribution
 
-Plot the distribution of quantity
+Plot quantity distribution
 
-Are there any outliers in quantity?
+Detect outliers in quantity
 
 RELATIONSHIP ANALYSIS
 
-Is there a correlation between price and quantity?
+Analyze correlation between price and quantity
 
-Plot a scatter plot between price and quantity
+Plot scatter plot between price and quantity
 
-Do expensive items sell less in quantity?
+Determine whether expensive items sell less in quantity
 
-Which category shows the strongest price–quantity relationship?
+Find category-wise price–quantity correlation
 
-Is revenue more dependent on price or quantity?
+Identify which category has the strongest price–quantity relationship
 
 MONTHLY & CATEGORY PERFORMANCE
 
 Calculate monthly revenue per category
 
-Which category performs best in each month?
+Identify best-performing category for each month
 
-Is any category showing a declining revenue trend?
+Analyze whether any category shows a declining trend
 
-Which category is the most consistent across months?
+Identify the most consistent category across months
 
-Which category has seasonal revenue spikes?
+Identify the category with seasonal revenue spikes
 
-ADVANCED EDA / INTERVIEW LEVEL
+ADVANCED EDA 
 
-Detect anomalies in revenue
+Detect anomalies in revenue using statistical methods
 
-Identify the top 10% high-value orders
+Identify top 10% high-value orders
 
 Compare weekday vs weekend sales
 
-Which category dominates high-value orders?
+Identify which category dominates high-value orders
 
-Suggest three business insights from the analysis
+Derive business insights from the analysis
